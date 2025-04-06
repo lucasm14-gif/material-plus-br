@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Layout adjustments - container sizing */
+@layer components {
+  .container {
+    @apply w-full max-w-[1140px] px-4 mx-auto;
+  }
+}
+
+/* Esconde scrollbar para o carrossel */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE e Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Estilos para o carrossel de casos */
+.scrollbar-hide {
+  transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1); /* Curva de animação mais suave */
+  will-change: transform; /* Otimização para animações */
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+/* Efeito de zoom suave nas imagens do carrossel ao passar o mouse */
+.carousel-item {
+  transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform-origin: center center;
+  will-change: transform;
+  position: relative;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.carousel-item:hover {
+  /* Removida a animação de expansão no hover */
+  background-color: rgba(30, 101, 222, 0.02);
+}
+
+/* Efeito de transição para as imagens do carrossel */
+.carousel-item img {
+  transition: all 0.3s ease;
+}
