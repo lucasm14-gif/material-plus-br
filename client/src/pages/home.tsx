@@ -342,11 +342,11 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [teamMembers] = useState([
-    'https://scalemidia.com.br/social-midia-porto-alegre/wp-content/uploads/2025/04/Captura-de-tela-2025-04-05-223520.png',
-    'https://scalemidia.com.br/social-midia-porto-alegre/wp-content/uploads/2025/04/Captura-de-tela-2025-04-05-223520.png',
-    'https://scalemidia.com.br/social-midia-porto-alegre/wp-content/uploads/2025/04/Captura-de-tela-2025-04-05-223520.png',
-    'https://scalemidia.com.br/social-midia-porto-alegre/wp-content/uploads/2025/04/Captura-de-tela-2025-04-05-223520.png',
-    'https://scalemidia.com.br/social-midia-porto-alegre/wp-content/uploads/2025/04/Captura-de-tela-2025-04-05-223520.png'
+    'https://brindideias.com.br/wp/wp-content/uploads/2025/04/1.jpg',
+    'https://brindideias.com.br/wp/wp-content/uploads/2025/04/2.jpg',
+    'https://brindideias.com.br/wp/wp-content/uploads/2025/04/3.jpg',
+    'https://brindideias.com.br/wp/wp-content/uploads/2025/04/4.jpg',
+    'https://brindideias.com.br/wp/wp-content/uploads/2025/04/time-material-plus.jpg'
   ]);
   const slideRef = React.useRef<HTMLDivElement>(null);
   const { toast } = useToast();
@@ -848,7 +848,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/3">
             <img
-  src="https://scalemidia.com.br/social-midia-porto-alegre/wp-content/uploads/2025/04/ChatGPT-Image-5-de-abr.-de-2025-23_59_18.png"
+  src="https://th.bing.com/th/id/R.f080eacfad0b81bc5f1a49810dd072d5?rik=FOODo1xKKpkO1A&riu=http%3a%2f%2fbrasildesentupimento.com.br%2fimages%2fservicos%2fdesentupimento_img01.jpg&ehk=mRPupvtRA%2bCQsUq%2bL7V8PSyGY%2bco3ElVYLecYq4volw%3d&risl=&pid=ImgRaw&r=0"
   alt="Imagem Material Plus"
   className="rounded-lg shadow-md w-full h-48 md:h-64 object-cover"
 />
@@ -875,7 +875,7 @@ export default function Home() {
           <Testimonial
             name="Carlos Silva"
             company="Constrular Materiais, São Paulo"
-            image="https://scalemidia.com.br/social-midia-porto-alegre/wp-content/uploads/2025/04/ChatGPT-Image-5-de-abr.-de-2025-23_59_18.png"
+            image="https://brindideias.com.br/wp/wp-content/uploads/2025/04/cliente-plus-m.png"
             text="Depois de trabalhar com várias agências de marketing sem resultado, encontramos a Material Plus. Em 6 meses, aumentamos nosso faturamento em 63% e o Instagram passou a gerar vendas reais. A diferença é que eles realmente entendem o mercado de materiais."
             since="Cliente desde: Março/2022"
             result="+63% em vendas"
@@ -884,7 +884,7 @@ export default function Home() {
           <Testimonial
             name="Ana Oliveira"
             company="Eletrotec, Belo Horizonte"
-            image="https://scalemidia.com.br/social-midia-porto-alegre/wp-content/uploads/2025/04/4967723a-8e1e-423c-8010-868937506439.png"
+            image="https://brindideias.com.br/wp/wp-content/uploads/2025/04/material-plus-cliente.png"
             text="A implementação do sistema de CRM e a automação dos orçamentos transformou nossa operação. Conseguimos atender mais clientes com a mesma equipe e o Google Ads finalmente começou a dar resultado. Nosso ROI triplicou em 4 meses."
             since="Cliente desde: Janeiro/2023"
             result="+215% em leads"
