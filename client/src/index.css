@@ -54,12 +54,10 @@
 
 /* Efeito de transição para as imagens do carrossel */
 .carousel-item img {
-  width: 250px;
-  height: 180px;
-  object-fit: cover;
   display: block;
   margin: 0 auto;
   border-radius: 8px;
-  background: #f2f2f2;
+  background: #fff;
   transition: all 0.3s ease;
+  /* Remove restrições de tamanho para mostrar a imagem no tamanho original */
 }
