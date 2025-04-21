@@ -942,7 +942,7 @@ export default function Home() {
               <div className="flex-shrink-0 w-full snap-center px-1">
                 <div className="carousel-item">
                   <img 
-                    src="/src/assets/Component 8.png" 
+                    src={Component8} 
                     alt="Case Tigre" 
                     className="w-auto h-auto max-h-[400px] mx-auto object-contain"
                   />
@@ -952,7 +952,7 @@ export default function Home() {
               <div className="flex-shrink-0 w-full snap-center px-1">
                 <div className="carousel-item">
                   <img 
-                    src="/src/assets/Component 9.png" 
+                    src={Component9} 
                     alt="Case Amanco" 
                     className="w-auto h-auto max-h-[400px] mx-auto object-contain"
                   />
@@ -1334,3 +1334,6 @@ export default function Home() {
     </div>
   );
 }
+
+import Component8 from '../assets/Component 8.png';
+import Component9 from '../assets/Component 9.png';
