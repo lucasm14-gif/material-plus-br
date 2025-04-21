@@ -962,7 +962,7 @@ export default function Home() {
               <div className="flex-shrink-0 w-full snap-center px-1">
                 <div className="carousel-item">
                   <img 
-                    src="/src/assets/Component 10.png" 
+                    src={Component10} 
                     alt="Case Vedacit" 
                     className="w-auto h-auto max-h-[400px] mx-auto object-contain"
                   />
@@ -970,27 +970,33 @@ export default function Home() {
               </div>
               
               <div className="flex-shrink-0 w-full snap-center px-1">
-                <img 
-                  src="/src/assets/Component 11.png" 
-                  alt="Case Gerdau" 
-                  className="w-auto h-auto max-h-[400px] mx-auto object-contain"
-                />
+                <div className="carousel-item">
+                  <img 
+                    src={Component11} 
+                    alt="Case Gerdau" 
+                    className="w-auto h-auto max-h-[400px] mx-auto object-contain"
+                  />
+                </div>
               </div>
               
               <div className="flex-shrink-0 w-full snap-center px-1">
-                <img 
-                  src="/src/assets/Component 12.png" 
-                  alt="Case Eternit" 
-                  className="w-auto h-auto max-h-[400px] mx-auto object-contain"
-                />
+                <div className="carousel-item">
+                  <img 
+                    src={Component12} 
+                    alt="Case Eternit" 
+                    className="w-auto h-auto max-h-[400px] mx-auto object-contain"
+                  />
+                </div>
               </div>
               
               <div className="flex-shrink-0 w-full snap-center px-1">
-                <img 
-                  src="/src/assets/Component 13.png" 
-                  alt="Case Votorantim" 
-                  className="w-auto h-auto max-h-[400px] mx-auto object-contain"
-                />
+                <div className="carousel-item">
+                  <img 
+                    src={Component13} 
+                    alt="Case Votorantim" 
+                    className="w-auto h-auto max-h-[400px] mx-auto object-contain"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -1337,3 +1343,7 @@ export default function Home() {
 
 import Component8 from '../assets/Component 8.png';
 import Component9 from '../assets/Component 9.png';
+import Component10 from '../assets/Component 10.png';
+import Component11 from '../assets/Component 11.png';
+import Component12 from '../assets/Component 12.png';
+import Component13 from '../assets/Component 13.png';
