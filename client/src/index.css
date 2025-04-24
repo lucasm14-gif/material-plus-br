@@ -15,8 +15,16 @@
 /* Layout adjustments - container sizing */
 @layer components {
   .container {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
     @apply w-full max-w-[1140px] px-4 mx-auto;
   }
