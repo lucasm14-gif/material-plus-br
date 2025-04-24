@@ -15,6 +15,9 @@
 /* Layout adjustments - container sizing */
 @layer components {
   .container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
     @apply w-full max-w-[1140px] px-4 mx-auto;
   }
 }
